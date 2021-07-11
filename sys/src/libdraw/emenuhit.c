@@ -6,7 +6,7 @@
 enum
 {
 	Margin = 4,		/* outside to text */
-	Border = 2,		/* outside to selection boxes */
+	Border = 1,		/* outside to selection boxes */
 	Blackborder = 2,	/* width of outlining border */
 	Vspacing = 2,		/* extra spacing between lines of text */
 	Maxunscroll = 25,	/* maximum #entries before scrolling turns on */

@@ -44,7 +44,7 @@ typedef	struct	Xfid Xfid;
 
 enum
 {
-	Selborder		= 4,		/* border of selected window */
+	Selborder		= 1,		/* border of selected window */
 	Unselborder	= 1,		/* border of unselected window */
 	Scrollwid 		= 12,		/* width of scroll bar */
 	Scrollgap 		= 4,		/* gap right of scroll bar */
