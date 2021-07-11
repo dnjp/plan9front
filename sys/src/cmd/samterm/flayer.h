@@ -42,7 +42,7 @@ void	flstart(Rectangle);
 void	flupfront(Flayer*);
 Flayer	*flwhich(Point);
 
-#define	FLMARGIN	4
+#define	FLMARGIN	2
 #define	FLSCROLLWID	12
 #define	FLGAP		4
 

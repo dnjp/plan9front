@@ -14,6 +14,7 @@ enum
 	Qscreen,
 	Qsnarf,
 	Qtext,
+	Qtheme,
 	Qwctl,
 	Qwindow,
 	Qwsys,		/* directory of window directories */
@@ -295,18 +296,6 @@ Cursor	whitearrow;
 Cursor	query;
 Cursor	*corners[9];
 
-Image	*background;
-Image	*cols[NCOL];
-Image	*titlecol;
-Image	*lighttitlecol;
-Image	*dholdcol;
-Image	*holdcol;
-Image	*lightholdcol;
-Image	*paleholdcol;
-Image	*paletextcol;
-Image	*sizecol;
-int	reverse;	/* there are no pastel paints in the dungeons and dragons world -- rob pike */
-
 Window	**window;
 Window	*wkeyboard;	/* window of simulated keyboard */
 int		nwindow;
@@ -334,3 +323,5 @@ int		snarfversion;	/* updated each time it is written */
 int		messagesize;		/* negotiated in 9P version setup */
 int		shiftdown;
 int		debug;
+
+#include "col.h"
